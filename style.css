@@ -14,7 +14,7 @@ body {
   width: 100%;
   min-height: 100%;
   display: flex;
-  background: #DADCE8;
+  background: #12c72a;
   overflow: hidden;
 }
 
@@ -27,53 +27,30 @@ body {
   height: 50vmin;
   border-radius: 50%;
   filter: blur(1vmin);
-  box-shadow: -5vmin -5vmin 5vmin #eaebf2, 5vmin 5vmin 5vmin #bbbed4, inset -5vmin -5vmin 5vmin #eaebf2, inset 5vmin 5vmin 5vmin #bbbed4;
-  border: 0 solid #DADCE8;
-  -webkit-animation: expand 4s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
-          animation: expand 4s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
-}
-@-webkit-keyframes expand {
-  0% {
-    width: 0;
-    height: 0;
-    box-shadow: -5vmin -5vmin 5vmin #eaebf2, 5vmin 5vmin 5vmin #bbbed4, inset -5vmin -5vmin 5vmin #eaebf2, inset 5vmin 5vmin 5vmin #bbbed4;
-    border: 0 solid rgba(218, 220, 232, 0.5);
-  }
-  5% {
-    box-shadow: -5vmin -5vmin 5vmin #eaebf2, 5vmin 5vmin 5vmin #bbbed4, inset -5vmin -5vmin 5vmin #eaebf2, inset 5vmin 5vmin 5vmin #bbbed4;
-    border: 2vmin solid rgba(218, 220, 232, 0.5);
-  }
-  90% {
-    box-shadow: none;
-    border: 2vmin solid rgba(218, 220, 232, 0.5);
-  }
-  100% {
-    width: 100vmin;
-    height: 100vmin;
-    box-shadow: none;
-    border: 0 solid rgba(218, 220, 232, 0.5);
-  }
+  box-shadow: -5vmin -5vmin 5vmin #14de2f, 5vmin 5vmin 5vmin #0e9820, inset -5vmin -5vmin 5vmin #14de2f, inset 5vmin 5vmin 5vmin #0e9820;
+  border: 0 solid #12c72a;
+  animation: expand 4s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
 }
 @keyframes expand {
   0% {
     width: 0;
     height: 0;
-    box-shadow: -5vmin -5vmin 5vmin #eaebf2, 5vmin 5vmin 5vmin #bbbed4, inset -5vmin -5vmin 5vmin #eaebf2, inset 5vmin 5vmin 5vmin #bbbed4;
-    border: 0 solid rgba(218, 220, 232, 0.5);
+    box-shadow: -5vmin -5vmin 5vmin #14de2f, 5vmin 5vmin 5vmin #0e9820, inset -5vmin -5vmin 5vmin #14de2f, inset 5vmin 5vmin 5vmin #0e9820;
+    border: 0 solid rgba(18, 199, 42, 0.5);
   }
   5% {
-    box-shadow: -5vmin -5vmin 5vmin #eaebf2, 5vmin 5vmin 5vmin #bbbed4, inset -5vmin -5vmin 5vmin #eaebf2, inset 5vmin 5vmin 5vmin #bbbed4;
-    border: 2vmin solid rgba(218, 220, 232, 0.5);
+    box-shadow: -5vmin -5vmin 5vmin #14de2f, 5vmin 5vmin 5vmin #0e9820, inset -5vmin -5vmin 5vmin #14de2f, inset 5vmin 5vmin 5vmin #0e9820;
+    border: 2vmin solid rgba(18, 199, 42, 0.5);
   }
   90% {
     box-shadow: none;
-    border: 2vmin solid rgba(218, 220, 232, 0.5);
+    border: 2vmin solid rgba(18, 199, 42, 0.5);
   }
   100% {
     width: 100vmin;
     height: 100vmin;
     box-shadow: none;
-    border: 0 solid rgba(218, 220, 232, 0.5);
+    border: 0 solid rgba(18, 199, 42, 0.5);
   }
 }
 .drop:before {
@@ -87,41 +64,25 @@ body {
   width: 0%;
   height: 0%;
   border-radius: 50%;
-  -webkit-animation: expand1 4s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
-          animation: expand1 4s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
-  box-shadow: -5vmin -5vmin 5vmin #eaebf2, 5vmin 5vmin 5vmin #bbbed4, inset -5vmin -5vmin 5vmin #eaebf2, inset 5vmin 5vmin 5vmin #bbbed4;
-}
-@-webkit-keyframes expand1 {
-  0% {
-    width: 0%;
-    height: 0%;
-    box-shadow: -5vmin -5vmin 5vmin #eaebf2, 5vmin 5vmin 5vmin #bbbed4, inset -5vmin -5vmin 5vmin #eaebf2, inset 5vmin 5vmin 5vmin #bbbed4;
-    border: 0 solid #DADCE8;
-  }
-  20% {
-    box-shadow: -5vmin -5vmin 5vmin #eaebf2, 5vmin 5vmin 5vmin #bbbed4, inset -5vmin -5vmin 5vmin #eaebf2, inset 5vmin 5vmin 5vmin #bbbed4;
-  }
-  100% {
-    width: 60%;
-    height: 60%;
-    box-shadow: none;
-    border: 1vmin solid #DADCE8;
-  }
+  animation: expand1 4s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+  box-shadow: -5vmin -5vmin 5vmin #14de2f, 5vmin 5vmin 5vmin #0e9820, inset -5vmin -5vmin 5vmin #14de2f, inset 5vmin 5vmin 5vmin #0e9820;
 }
 @keyframes expand1 {
   0% {
     width: 0%;
     height: 0%;
-    box-shadow: -5vmin -5vmin 5vmin #eaebf2, 5vmin 5vmin 5vmin #bbbed4, inset -5vmin -5vmin 5vmin #eaebf2, inset 5vmin 5vmin 5vmin #bbbed4;
-    border: 0 solid #DADCE8;
+    box-shadow: -5vmin -5vmin 5vmin #14de2f, 5vmin 5vmin 5vmin #0e9820, inset -5vmin -5vmin 5vmin #14de2f, inset 5vmin 5vmin 5vmin #0e9820;
+    border: 0 solid #12c72a;
   }
   20% {
-    box-shadow: -5vmin -5vmin 5vmin #eaebf2, 5vmin 5vmin 5vmin #bbbed4, inset -5vmin -5vmin 5vmin #eaebf2, inset 5vmin 5vmin 5vmin #bbbed4;
+    box-shadow: -5vmin -5vmin 5vmin #14de2f, 5vmin 5vmin 5vmin #0e9820, inset -5vmin -5vmin 5vmin #14de2f, inset 5vmin 5vmin 5vmin #0e9820;
   }
   100% {
     width: 60%;
     height: 60%;
     box-shadow: none;
-    border: 1vmin solid #DADCE8;
+    border: 1vmin solid #12c72a;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
